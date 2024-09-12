@@ -2,9 +2,16 @@ body {
   font-family: "Raleway", sans-serif;
   color: #1b161d;
   background-color: #ffffff;
-  background-color: black;
+  background-image: url(../images/section\ 2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: bottom left; */
 }
-
+.extend{
+  height: 600px;
+  width: 100px;
+  background-color: transparent;
+}
 .body-bg {
   background-image: url(../images/body-bg.png);
   background-size: cover;
@@ -347,9 +354,10 @@ a:focus {
   color: white;
   margin-top: 45px;
   text-align: center;
-  background-image: url(../images/section\ 2.jpg);
+  /* background-image: url(../images/section\ 2.jpg); */
   background-repeat: no-repeat;
-  /* background-color: #ff8383; */
+  background-attachment: fixed;
+  background-color: transparent;
 }
 
 .about_section h2 {
@@ -415,7 +423,7 @@ a:focus {
 }
 
 .who_section .who_img-box {
-  background-color: #292626;
+  background-color: transparent;
   border-radius: 100%;
   padding: 50px;
   transform: scale(1.01) translateX(-10%);
@@ -428,7 +436,7 @@ a:focus {
 }
 
 .who_section .who_deail-box {
-  text-align: right;
+  text-align: center;
   width: 40%;
 }
 
@@ -447,6 +455,7 @@ a:focus {
 
 .who_container {
   display: flex;
+  background-color: transparent;
 }
 
 /* end who section */
@@ -658,3 +667,10 @@ a:focus {
 }
 
 /* end footer section*/
+.container{
+  background-color: transparent;
+}
+
+#spbutton{
+  color: blue;
+}
