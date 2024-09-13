@@ -38,6 +38,12 @@
   </head>
 
   <body>
+
+    <div id="preloader"></div>
+
+    </div>
+
+
     <div class="hero_area">
       <!-- header section strats -->
       <header class="header_section">
@@ -769,5 +775,15 @@
           .classList.toggle("menu_btn-style");
       }
     </script>
+
+
+
+<script>
+  var loader = document.getElementById('preloader');
+  
+  window.addEventListener('load', function(){
+    loader.style.display = 'none';
+  })
+</script>
   </body>
 </html>
